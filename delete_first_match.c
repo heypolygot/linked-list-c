@@ -7,6 +7,19 @@ typedef struct node{
 	struct node *next;
 }Node;
 
+//Function for inserting new node at the starting of the list.
+Node *insert_at_head(Node *head,int new_value){
+	Node *newnode = calloc(1,sizeof(Node));	
+	newnode -> value = new_value;
+	
+	if (head == NULL) return newnode;
+	else{
+		newnode -> next = head;
+		return newnode;
+	}
+}
+
+
 //Function for printing a Node.
 void print_Node (Node *head){
 	Node *current;
@@ -55,41 +68,26 @@ Node *delete_first_match(Node *head, int delete_value, bool *was_deleted){
 }
 
 void main() {
-	Node a,b,c,d,e,f,g,h;
+	Node *head = NULL;
 
-	a.value=5;
-	a.next=&b;
+	head = insert_at_head(head, 7);	
+        head = insert_at_head(head, 5);
+        head = insert_at_head(head, 3);
+        head = insert_at_head(head, 6);
+        head = insert_at_head(head, 1);
+        head = insert_at_head(head, 3);
+        head = insert_at_head(head, 2);
+        head = insert_at_head(head, 8);
 
-	b.value=10;
-	b.next=&c;
-
-	c.value=15;
-	c.next=&d;	
-	
-        d.value=3;
-        d.next=&e;
-
-        e.value=21;
-        e.next=&f;
-
-        f.value=13;
-        f.next=&g;
-
-        g.value=3;
-        g.next=&h;
-
-	h.value=3;
-        h.next=NULL;
-	
 	printf("List before Deletion\n");
-	print_Node(&a);
+	print_Node(head);
 	
 	bool deleted;
-	delete_first_match(&a,3,&deleted);
+	head = delete_first_match(head,5,&deleted);
 	
 	if (deleted){
 		printf("List after Deletion:\n");
-		print_Node(&a);
+		print_Node(head);
 	}else{
 		printf("value not found:\n");
 	}
