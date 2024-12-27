@@ -7,6 +7,13 @@ typedef struct node{
 	struct node *next;
 }Node;
 
+
+//Function declarations
+void print_node(Node *head);
+Node *insert_at_tail(Node *head,int new_value);
+
+
+
 //Printing Nodes.
 void print_node(Node *head){
 	Node *current;
