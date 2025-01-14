@@ -26,4 +26,5 @@ You can explore this repository to know about the following Operations in linked
 - Sorting of Linked List.
 
 ### References 
-[Follow me](https://ajaydey.hashnode.dev/linked-lists-in-c)
+[Hashnode](https://ajaydey.hashnode.dev/linked-lists-in-c)
+
