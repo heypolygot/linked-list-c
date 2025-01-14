@@ -1,4 +1,4 @@
-# Linked-Lists in C language 
+# Linked Lists in C
 
 This is a repository for learning about the linked lists using C programminglanguage.
 
