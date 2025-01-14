@@ -1,6 +1,6 @@
 # Linked Lists in C
 
-This is a repository for learning about the linked lists using C programminglanguage.
+This repository contains the code crafted during learning about Linked Lists in C. Towards the bottom you can find the article I have written for the same.
 
 ## Contents 
 
@@ -25,7 +25,7 @@ You can explore this repository to know about the following Operations in linked
 - Appending a list into another list 
 - Sorting of the List
 
-### Reasings 
+### Readings 
 - [Linked Lists Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
 - [Linked List in C](https://ajaydey.hashnode.dev/linked-lists-in-c)
 
