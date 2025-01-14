@@ -1,21 +1,29 @@
-# Linked-Lists
+# Linked-Lists in C language 
 
-This is a repository for learning about the linked lists using C programming. 
+This is a repository for learning about the linked lists using C programminglanguage.
 
 ## Contents 
 
-You can explore this repository to know about the following:
+You can explore this repository to know about the following Operations in linked lists:
 
 - Creation of Linked List 
 - Insertion of nodes
-- Finding a node 
-- Updating a node 
-- Deletion of nodes 
-- Batch insertions
-- Batch deletion 
-- Sorting of Linked List 
-- much more...
+	- starting node
+	- last node
+	- after a node
+- List length.
+- Printing the list.
+- Counting matching nodes
+- Replacing a node 
+- Deletion of nodes
+	- first match
+	- head node
+	- all matches 
+	- duplicate nodes
+	- whole list
+- Searching in linked list.
+- Appending a list into another list. 
+- Sorting of Linked List.
 
-### Compilation 
-
-This section will have the details of compilation for the programs included in the repo.
+### References 
+[Follow me](https://ajaydey.hashnode.dev/linked-lists-in-c)
