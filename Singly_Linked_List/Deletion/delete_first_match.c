@@ -79,11 +79,15 @@ void main() {
         head = insert_at_head(head, 2);
         head = insert_at_head(head, 8);
 
+	int del_num;
+	printf("Enter a number to delete:");
+	scanf("%d",&del_num);
+
 	printf("List before Deletion\n");
 	print_Node(head);
 	
 	bool deleted;
-	head = delete_first_match(head,5,&deleted);
+	head = delete_first_match(head,del_num,&deleted);
 	
 	if (deleted){
 		printf("List after Deletion:\n");
