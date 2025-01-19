@@ -39,10 +39,11 @@ To use this repository, you will need:
 Compile the programs using:
 ```bash
 gcc linkedlist_example.c -o linkedlist_example
-
+```
 
 ### Running
 
 Run the programs using:
 ```bash
 ./linkedlist_example
+```
