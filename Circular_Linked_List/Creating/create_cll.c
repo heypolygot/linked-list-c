@@ -32,7 +32,7 @@ CNode *create_cll(CNode *head){
 		head = new_node;
 	}else{
 		ptr = head;
-		while (ptr  -> next != NULL)ptr = ptr -> next;
+		while (ptr  -> next != head)ptr = ptr -> next;
 		ptr -> next =  new_node;
 		new_node -> next = head;
 	}
@@ -42,5 +42,6 @@ CNode *create_cll(CNode *head){
 }
 
 void main() {
-	CNode *head = create_cll(head);
+	CNode *head = NULL;
+	head = create_cll(head);
 }
