@@ -1,0 +1,4 @@
+#ignore unwanted files
+*limit_reverse-list.c
+*.vscode/
+bin/
